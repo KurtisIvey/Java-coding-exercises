@@ -9,6 +9,7 @@ public class DoubleChar {
         }
         return output.toString();
     }
+    // returns String type, so set as String
     public static String doubleIt(char c) {
         return String.valueOf(c) + c; // converts char to string and doubles it
     }
