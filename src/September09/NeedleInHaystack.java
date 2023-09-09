@@ -1,0 +1,18 @@
+package September09;
+
+public class NeedleInHaystack {
+    public static String findNeedle(Object[] haystack) {
+        // Object[] means array
+        final String targetWord = "needle";
+        for (int i = 0; i < haystack.length;i++){
+            if (haystack[i] instanceof String) {
+                // If it's a String, cast it to String and compare it to the targetWord
+                if (((String) haystack[i]).equals(targetWord)) {
+                    // If it matches the targetWord, return the position where it was found
+                    return "found the needle at position " + i;
+                }
+            }
+        }
+        return "not found";
+    }
+}
