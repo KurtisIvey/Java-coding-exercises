@@ -16,3 +16,15 @@ public class NeedleInHaystack {
         return "not found";
     }
 }
+
+/*
+Faster way converting array to list
+
+public static String findNeedle(Object[] haystack) {
+    // Convert the haystack array to a List and find the index of "needle"
+    int indexOfNeedle = java.util.Arrays.asList(haystack).indexOf("needle");
+
+    // Use String.format to create a formatted string result
+    return String.format("found the needle at position %d", indexOfNeedle);
+}
+ */
