@@ -10,3 +10,13 @@ public class SentenceSmash {
         return output.toString().trim();
     }
 }
+
+/*
+big brain method...using .join
+
+public class SmashWords {
+	public static String smash(String... words) {
+    return String.join(" ", words);
+  }
+}
+ */
