@@ -16,3 +16,11 @@ public class StringEndsWith {
         return strEnding.equals(ending);
     }
 }
+
+/*
+  the only real solution that matters....built in one liner lol
+
+ public static boolean solution(String str, String ending) {
+    return str.endsWith(ending);
+  }
+ */
